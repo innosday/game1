@@ -1,0 +1,54 @@
+#img {
+    position: relative;
+    width: 400px;
+    transform: translate(20px,200px);
+}
+#chat {
+    width: 500px;
+    height: auto;
+}
+
+#ai {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateY(200px);
+}
+
+#main img{
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#text {
+    position: absolute;
+    top :40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* #mychat {
+    width: 500px;
+    height: auto;
+    position: relative;
+    transform: translateY(-200px);
+    z-index: 0;
+} */
+
+.title {
+    position: relative;
+    right: 10%;
+}
+.ai-chat {
+    position: relative;
+    left : 18%;
+    font-size: 200%;
+    font-weight: 100px;
+    width: 250px;
+    top: 100px;
+}
